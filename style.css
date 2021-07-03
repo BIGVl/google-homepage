@@ -6,6 +6,12 @@ h1 {
 }
 input {
     position: absolute;
-    left: 50%;
-    top: 35%;
+    left: 47%;
+    top: 38%;
+}
+div {
+    position: absolute;
+    left: 46%;
+    top: 46%;
+
 }

@@ -1,17 +1,17 @@
-h1 {
+.parent-center{
     position: relative;
-    left: 45%;
-    top: 20%; 
 
 }
-input {
+h1 {
     position: absolute;
-    left: 47%;
-    top: 38%;
+    left:44%;
+    top: 20%;
 }
-div {
-    position: absolute;
-    left: 46%;
-    top: 46%;
+input{
+    position:absolute;
+    border-radius: 20px 20px 20px 20px;
+    width:400px;
+    left: 41%;
+    top: 48%;
 
 }

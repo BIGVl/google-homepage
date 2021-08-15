@@ -1,17 +1,40 @@
-.parent-center{
-    position: relative;
+header {
+    display: flex;
+   
+    
+}
+.as {
+    font-family: arial, sans-serif;
+    opacity: 0.70;
+}
+
+
+
+
+.container{
+ display: flex;
+flex-direction:column;
+padding: 200px;
 
 }
-h1 {
-    position: absolute;
-    left:44%;
-    top: 20%;
+.logo {
+    width: 350px;
+    align-self:center;
+    
 }
-input{
-    position:absolute;
-    border-radius: 20px 20px 20px 20px;
-    width:400px;
-    left: 41%;
-    top: 48%;
+.buttons {
+    align-self: center;
+    font-family: arial, sans-serif;
+    margin: 25px 4px;
 
+    
+}
+.search {
+    align-self:center;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
 }

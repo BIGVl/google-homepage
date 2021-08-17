@@ -1,13 +1,31 @@
-header {
+.head {
     display: flex;
+   flex-direction:row;
+justify-content: space-between;
    
-    
 }
 .as {
     font-family: arial, sans-serif;
     opacity: 0.70;
+    font-size: 15px;
+    align-self: flex-start;
 }
+.gi {
+    font-family: arial, sans-serif;
+    opacity: 0.70;
+    font-size: 15px;
 
+}
+.sign{
+    background-color: blue;
+    color: white;
+    border-color: white;
+    height: 2.5em;
+    width: 5em;
+    font-weight: bolder;
+    
+
+}
 
 
 
@@ -15,20 +33,37 @@ header {
  display: flex;
 flex-direction:column;
 padding: 200px;
+justify-content: center;
 
 }
 .logo {
-    width: 350px;
+    width: 300px;
     align-self:center;
     
 }
 .buttons {
-    align-self: center;
+    align-self: center; 
+    padding-top: 25px;
+}
+.b1{
+    
     font-family: arial, sans-serif;
     margin: 25px 4px;
-
-    
+   height: 40px;
+   border-color: white;
+   opacity: 0.6;
+   padding-right: 5px;
 }
+.b2 {
+    
+    font-family: arial, sans-serif;
+    margin: 25px 4px;
+   height: 40px;
+   border-color: white;
+   opacity: 0.6;
+   padding-left: 5px;
+}
+
 .search {
     align-self:center;
     border-radius: 24px;
@@ -37,4 +72,11 @@ padding: 200px;
     width: 500px;
     margin: 0 auto;
     margin-top: 25px;
+}
+#search-icon {
+    opacity: 0.7;
+    position: relative;
+    bottom: 37%;
+    left: 37.5%;
+    color: gray
 }

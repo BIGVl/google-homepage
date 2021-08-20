@@ -1,3 +1,8 @@
+html{
+    position:relative;
+    min-height: 100%;
+}
+
 .head {
     display: flex;
    flex-direction:row;
@@ -14,7 +19,7 @@ justify-content: space-between;
     font-family: arial, sans-serif;
     opacity: 0.70;
     font-size: 15px;
-
+    
 }
 .sign{
     background-color: blue;
@@ -23,6 +28,7 @@ justify-content: space-between;
     height: 2.5em;
     width: 5em;
     font-weight: bolder;
+    border-style: hidden;
     
 
 }
@@ -44,6 +50,8 @@ justify-content: center;
 .buttons {
     align-self: center; 
     padding-top: 25px;
+    transform:translateY(-100px);
+
 }
 .b1{
     
@@ -52,7 +60,8 @@ justify-content: center;
    height: 40px;
    border-color: white;
    opacity: 0.6;
-   padding-right: 5px;
+   padding-right: 8px;
+   border-style: hidden;
 }
 .b2 {
     
@@ -61,7 +70,15 @@ justify-content: center;
    height: 40px;
    border-color: white;
    opacity: 0.6;
-   padding-left: 5px;
+   padding-left: 8px;
+   border-style: hidden;
+}
+.searchall {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    
 }
 
 .search {
@@ -73,10 +90,39 @@ justify-content: center;
     margin: 0 auto;
     margin-top: 25px;
 }
-#search-icon {
-    opacity: 0.7;
-    position: relative;
-    bottom: 37%;
-    left: 37.5%;
-    color: gray
+#search-icon{
+   
+    align-self: center; 
+    transform:translateY(60px);
+    padding-right: 450px;
+    opacity: 0.5;    
+   }
+   
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+li a {
+    color: white;
+    text-decoration: none;
+    font-size:large;
+
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: #A0A0A0;
+    
+}
+li a:hover {
+    text-decoration: underline;
+}
+li{
+    display: inline-block;
+    padding-right: 15px;
+
+}
+
